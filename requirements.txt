@@ -1,0 +1,17 @@
+dataclasses
+numpy
+Pillow
+protobuf
+PyYAML
+pyyaml-include
+six
+tensorboardX
+torch
+torchvision
+typing-extensions
+wandb
+sacred
+tqdm
+tabulate
+pandas
+gym
