@@ -1,6 +1,6 @@
 # CMARL-Traffic
 
-Source code of "[A Constrained Multi-Agent Reinforcement Learning Approach to Traffic Management](https://openreview.net/pdf?id=chdYHDuH37)", which proposes a new method for constrained MARL on Adaptive Traffic Signal Control (ATSC), Multi-Agent Proximal Policy Optimization with Lagrange Cost Estimator (MAPPO-LCE).
+Source code of "A Constrained Multi-Agent Reinforcement Learning Approach to Autonomous Traffic Signal Control", which proposes a new method for constrained MARL on Adaptive Traffic Signal Control (ATSC), Multi-Agent Proximal Policy Optimization with Lagrange Cost Estimator (MAPPO-LCE).
 
 # Usage
 We use [CityFlow](https://github.com/zyr17/CityFlow) as traffic simulator.
