@@ -18,9 +18,9 @@ use_tensorboard: False                  # Whether log results to tensorboard
 # ======== Sampling ========
 
 runner: "episode"                      # The runner used to collect samples for training
-batch_size: 1                           # Collect batch_size episodes for training in each iteration
-batch_size_run: 1                       # Run batch_size_run parallel environments in the runner
-buffer_size: 200                          # The maximum number of episodes stored in the buffer
+batch_size: 8                           # Collect batch_size episodes for training in each iteration
+batch_size_run: 8                       # Run batch_size_run parallel environments in the runner
+buffer_size: 8                          # The maximum number of episodes stored in the buffer
 buffer_cpu_only: True                   # Whether to store the buffer in the CPU memory
 
 # ======== Algorithm ========
