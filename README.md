@@ -1,6 +1,6 @@
 # CMARL-Traffic
 
-Source code of "A Constrained Multi-Agent Reinforcement Learning Approach to Autonomous Traffic Signal Control" (pre-print coming soon!), which proposes a new method for constrained MARL on Adaptive Traffic Signal Control (ATSC), Multi-Agent Proximal Policy Optimization with Lagrange Cost Estimator (MAPPO-LCE).
+Source code of "[A Constrained Multi-Agent Reinforcement Learning Approach to Autonomous Traffic Signal Control](https://arxiv.org/abs/2503.23626)", which proposes a new method for constrained MARL on Adaptive Traffic Signal Control (ATSC), Multi-Agent Proximal Policy Optimization with Lagrange Cost Estimator (MAPPO-LCE).
 
 # Usage
 We use [CityFlow](https://github.com/zyr17/CityFlow) as traffic simulator.
@@ -49,3 +49,18 @@ process are two separate configs. All CityFlow configs are stored in
 
 We use Weights and Biases for logging, but this can be disabled by setting `--enable-wandb=False`.
 If you want to enable Weights and Biases, please set the default wandb entity and project name in `Environments/utils/arguments.py`.
+
+## BibTeX Citation
+
+If you use MAPPO-LCE in your work, we would appreciate including the following citation
+```
+@misc{satheesh2025constrainedmultiagentreinforcementlearning,
+      title={A Constrained Multi-Agent Reinforcement Learning Approach to Autonomous Traffic Signal Control}, 
+      author={Anirudh Satheesh and Keenan Powell},
+      year={2025},
+      eprint={2503.23626},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA},
+      url={https://arxiv.org/abs/2503.23626}, 
+}
+```
