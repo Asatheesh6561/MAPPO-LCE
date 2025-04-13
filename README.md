@@ -52,7 +52,7 @@ If you want to enable Weights and Biases, please set the default wandb entity an
 
 ## BibTeX Citation
 
-If you use MAPPO-LCE in your work, we would appreciate including the following citation
+If you use MAPPO-LCE in your work, we would appreciate including the following citation:
 ```
 @misc{satheesh2025constrainedmultiagentreinforcementlearning,
       title={A Constrained Multi-Agent Reinforcement Learning Approach to Autonomous Traffic Signal Control}, 
