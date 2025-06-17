@@ -1,4 +1,4 @@
-# CMARL-Traffic
+# MAPPO-LCE
 
 Source code of "[A Constrained Multi-Agent Reinforcement Learning Approach to Autonomous Traffic Signal Control](https://arxiv.org/abs/2503.23626)", which proposes a new method for constrained MARL on Adaptive Traffic Signal Control (ATSC), Multi-Agent Proximal Policy Optimization with Lagrange Cost Estimator (MAPPO-LCE).
 
